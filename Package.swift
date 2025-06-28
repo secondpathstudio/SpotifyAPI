@@ -32,9 +32,6 @@ let package = Package(
                 .product(name: "RegularExpressions", package: "RegularExpressions"),
                 .product(name: "Logging", package: "swift-log"),
                 .product(name: "Crypto", package: "swift-crypto"),
-                .product(name: "OpenCombine", package: "OpenCombine"),
-                .product(name: "OpenCombineDispatch", package: "OpenCombine"),
-                .product(name: "OpenCombineFoundation", package: "OpenCombine")
             ],
             exclude: ["README.md"]
         ),
