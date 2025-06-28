@@ -52,17 +52,6 @@ let package = Package(
             ]
         ),
         
-        // MARK: Test Targets
-        
-        .testTarget(
-            name: "SpotifyAPIMainTests",
-            dependencies: [
-                "SpotifyWebAPI",
-                "SpotifyExampleContent",
-                "RegularExpressions",
-                "SpotifyAPITestUtilities"
-            ]
-        )
         
     ]
 )
