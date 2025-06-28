@@ -114,9 +114,6 @@ var spotifyAPITestUtilitiesDependencies: [Target.Dependency] {
         "SpotifyWebAPI",
         "SpotifyExampleContent",
         .product(name: "RegularExpressions", package: "RegularExpressions"),
-        .product(name: "OpenCombine", package: "OpenCombine"),
-        .product(name: "OpenCombineDispatch", package: "OpenCombine"),
-        .product(name: "OpenCombineFoundation", package: "OpenCombine")
     ]
     
     #if TEST
